@@ -1,0 +1,172 @@
+{
+  "settings" : [ {
+    "key" : "dataField",
+    "valueType" : "number",
+    "defaultValue" : 2,
+    "configTitle" : "dataFieldTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : "https://samuelmr.github.io/garmin-abouttime/#howto",
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "hideTitle",
+      "value" : 0
+    }, {
+      "display" : "batteryTitle",
+      "value" : 1
+    }, {
+      "display" : "dateTitle",
+      "value" : 2
+    }, {
+      "display" : "distanceTitle",
+      "value" : 3
+    }, {
+      "display" : "stepsTitle",
+      "value" : 4
+    }, {
+      "display" : "timeTitle",
+      "value" : 6
+    }, {
+      "display" : "hrTitle",
+      "value" : 8
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "colorScheme",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "colorSchemeTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : "https://samuelmr.github.io/garmin-abouttime/#howto",
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "whiteOnBlack",
+      "value" : 0
+    }, {
+      "display" : "blackOnWhite",
+      "value" : 1
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "smallerFont",
+    "valueType" : "boolean",
+    "defaultValue" : true,
+    "configTitle" : "smallerFontTitle",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "showIcons",
+    "valueType" : "boolean",
+    "defaultValue" : true,
+    "configTitle" : "showIconsTitle",
+    "configPrompt" : "showIconsHelp",
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "batteryWarn",
+    "valueType" : "number",
+    "defaultValue" : 30,
+    "configTitle" : "batteryWarnTitle",
+    "configPrompt" : "batteryWarnPrompt",
+    "configType" : "numeric",
+    "configError" : "myNumberError",
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "batteryAlert",
+    "valueType" : "number",
+    "defaultValue" : 15,
+    "configTitle" : "batteryAlertTitle",
+    "configPrompt" : "batteryAlertPrompt",
+    "configType" : "numeric",
+    "configError" : "myNumberError",
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "dateTitle" : "Date",
+      "min10" : "ten\tpast\t$1$",
+      "showIconsTitle" : "Show icons",
+      "min55" : "almost\t$2$\to'clock",
+      "timeTitle" : "Exact time",
+      "batteryWarnPrompt" : "Show warning icon when charge level falls below",
+      "myNumberError" : "Insert a number between 0 and 100",
+      "min35" : "a bit past\t$1$\tthirty",
+      "min15" : "quarter\tpast\t$1$",
+      "hour10" : "ten",
+      "dataFieldTitle" : "Data to show with time",
+      "batteryAlertTitle" : "Battery alert %",
+      "hrTitle" : "Heart rate",
+      "AppName" : "About",
+      "hour11" : "eleven",
+      "batteryTitle" : "Battery",
+      "min5" : "little\tpast\t$1$",
+      "distanceTitle" : "Distance",
+      "noon" : "twelve",
+      "showIconsHelp" : "disconnected, notifications, alarms, sleep time, battery low",
+      "smallerFontTitle" : "Smaller font",
+      "min50" : "ten\tto\t$2$",
+      "min30" : "half\tpast\t$1$",
+      "hour1" : "one",
+      "min20" : "twenty\tpast\t$1$",
+      "min45" : "quarter\tto\t$2$",
+      "hour3" : "three",
+      "midnight" : "twelve",
+      "hour2" : "two",
+      "min25" : "almost\t$1$\tthirty",
+      "activeMinutesTitle" : "Active minutes",
+      "blackOnWhite" : "Black on white",
+      "min0" : "\t$1$\to'clock",
+      "stepsTitle" : "Steps",
+      "hideTitle" : "Nothing (hide)",
+      "stepGoalTitle" : "Step goal",
+      "batteryWarnTitle" : "Battery warning %",
+      "hour9" : "nine",
+      "hour8" : "eight",
+      "colorSchemeTitle" : "Color scheme",
+      "hour5" : "five",
+      "whiteOnBlack" : "White on black",
+      "batteryAlertPrompt" : "Show alert icon when charge level falls below",
+      "hour4" : "four",
+      "hour7" : "seven",
+      "min40" : "twenty\tto\t$2$",
+      "hour6" : "six"
+    }
+  }
+}
